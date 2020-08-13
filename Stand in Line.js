@@ -5,10 +5,10 @@ can be taken off from the front of the queue.
 */
 
 function nextInLine(arr, item) {
+   
+    arr.push(item);
 
-
-
-    return item;
+    return arr.shift();
 }
 
 var testArray = [1, 2, 3, 4, 5];
